@@ -1,0 +1,323 @@
+<!DOCTYPE>
+<html><head>
+		<title>Theme Documentation</title>
+		<link rel="stylesheet" type="text/css" href="css/documentation.css">
+		<link rel="stylesheet" href="google-code-prettify/prettify.css" media="screen">
+		<script src="google-code-prettify/prettify.js"></script>
+		<!--<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>-->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+    	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">    
+        <link href="css/my_style.css" rel="stylesheet">    
+ 	    <link rel='stylesheet' id='css-fancybox-css'  href="js/lightbox/source/jquery.fancybox.css" type='text/css' media='all' />
+		<link rel="stylesheet" href="js/lightbox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+		
+		<script src="js/jquery.js"></script>
+		<script src="js/lightbox/source/jquery.fancybox.js"></script>
+		<script src="js/lightbox/source/helpers/jquery.fancybox-buttons.js"></script>
+		<script type="text/javascript" src="js/lightbox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+		
+		
+		<script src="js/jquery.scrollTo.js"></script>
+		<script src="js/jquery.easing.js"></script>
+		<script>document.createElement('section');var duration='500',easing='easeInQuart';</script>
+		<script src="js/script.js"></script>
+		<script>
+
+				$(document).ready(function(){
+						$(".fancybox").fancybox({
+		prevEffect		: 'none',
+		nextEffect		: 'none',
+		closeBtn		: false,
+		helpers		: {
+			title	: { type : 'inside' },
+			buttons	: {}
+		}
+	});
+				});
+		</script>
+
+		<style>
+			/*==========CLEARFIX===================*/
+			.clearfix:after {
+			    visibility: hidden;
+			    display: block;
+			    font-size: 0;
+			    content: " ";
+			    clear: both;
+			    height: 0;
+			    }
+			* html .clearfix             { zoom: 1; } /* IE6 */
+			*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+			h3 { margin: 25px 0 15px; }
+		</style>
+        
+	</head>
+
+
+	<body>
+		<aside class="side" id="document_sidebar">
+			<div class="log_area">	
+            	<a href="#start"><img src="images/logo.png"></a>
+            </div>
+			<ul id="document_nav">
+            	<li><a href="#start">Start</a></li>
+				<li><a href="#overview">Theme Overview</a></li>
+				<li><a href="#file">File Structure</a></li>
+				<li><a href="#home-layout">Home Page Layouts</a></li>
+				
+				<li><a href="#shortcodes-layout">page layout</a></li>
+				<li><a href="#css-str">CSS Structure</a></li>
+				<li><a href="#icon-usage">Icon Usage</a></li>
+				<li><a href="#font-usage">Font Usage</a></li>
+				<li><a href="#java">Javascript</a></li>
+				<li><a href="#imglink">image</a></li>
+				<li><a href="#source">Sources and Credits</a></li>
+			</ul>
+        </aside>
+		<section class="main-wrapper">
+        	<article id="start" class="head">
+            	<div class="creative_logo">
+                    <img src="images/logo-2.png">
+                    <h2><span>Awesome Ideas </span>Multipurpose Theme</h2>
+                </div>
+				<div class="divider"></div>
+                <div class="clear">
+                    <div class="grid_06"><h3>Created: 12/08/2015</h3></div>
+                    <div class="grid_06">
+                        <h6>By: 0effortthemes <a href="http://0effortthemes.com/">0effortthemes.com</a></h6>
+                    </div>
+                </div>
+				<p>Thank you for your purchase! If you have any questions that you feel should have been in this document, please feel free to contact us through our <a href="http://0effortthemes.com/support">Support</a>. Thanks!<br/><br/>
+                Also you'll need some knowledge of bootstrap, css, jquery to edit this theme.<br/><br/>
+                Version: 1.0</p>
+			</article>  
+        
+        	<!-- INSTALL THEME OPEN -->
+			<article class="theme-overview" id="overview">
+				<h2>Theme Overview</h2>
+				<hr class="notop">
+
+				<p>Awesome Ideas Theme is multi purpose  HTML5 template, but can also be used for other template purposes to serve as a foundation of your website/web page. It is based on Twitter Bootstrap.</p>
+
+				<p>To use the template you have to be a little familiar with HTML and CSS. If you are familiar with HTML and CSS and if you go through the HTML files, you will discover how easily you will be able to customize the template according to your needs. This documentation covers some basics to help you get started with the customization process.</p>
+			</article>  
+            <!-- INSTALL THEME CLOSE -->   
+                      
+            <!-- THEME SETTINGS OPEN -->
+		    <article class="file-structure" id="file">
+				<h2>File Structure</h2>
+				<hr class="notop">
+				<p>
+					When you download the 0effort theme folder you'll see something like this
+				</p>
+				<pre class="prettyprint linenums">
+					ROOT FOLDER
+					+-- fonts /
+					&brvbar;    +-- all fonts used
+					+-- images /
+					&brvbar;    +-- all images used
+					+-- styles /
+					&brvbar;    +-- vendor /
+					&brvbar;	&brvbar;	+-- main.css
+					&brvbar;	&brvbar;	+-- vendors.css
+					+-- scripts /
+					&brvbar;    +-- vendor /
+					&brvbar;	&brvbar;	+-- modernizr.js
+					&brvbar;	+-- vendor.js
+					&brvbar;	+-- main.js
+					&brvbar;	+-- plugins.js
+					+-- index.html
+					+-- blogdetails.html
+					+-- mail.php
+				</pre>
+			</article>
+            <!-- THEME SETTINGS CLOSE -->
+            
+            <!-- DEMO CONTENT OPEN -->
+			<article class="index-pg-layout" id="home-layout">
+				<h2>Home page Layouts</h2>
+				<p>The main layout of the Index page template can be summarized in the following snapshot.</p>
+				
+				<div class="diff">
+				<a href="screenshot/large/home.jpg" class="fancybox" data-fancybox-group="homepage">
+						<img src="screenshot/small/home_thumb.png" height="400" width="400" class="img-responsive" alt="image">
+						<span>onepage homepage</span>
+					</a>				
+				</div>
+				
+			</article>
+		
+			<article class="index-pg-layout" id="shortcodes-layout">
+				<h2>Page Layout</h2>
+				<p>The pagelayout can be summarized in the following snapshot.</p>
+				
+				<div class="diff">
+					<a href="screenshot/large/servicepage.png" class="fancybox" data-fancybox-group="homepage">
+						<img src="screenshot/small/service_thumb.png" height="400" width="400" class="img-responsive" alt="image">
+						<span>service page</span>
+					</a>
+					<a href="screenshot/large/workpage.png" class="fancybox" data-fancybox-group="homepage">
+						<img src="screenshot/small/work_thumb.png" height="400" width="400" class="img-responsive" alt="image">
+						<span>work page</span>
+					</a>
+					<a href="screenshot/large/teampage.png" class="fancybox" data-fancybox-group="homepage">
+						<img src="screenshot/small/team_thumb.png" height="400" width="400" class="img-responsive" alt="image">
+						<span>team page</span>
+					</a>
+					<a href="screenshot/large/blogdetails.png" class="fancybox" data-fancybox-group="homepage">
+						<img src="screenshot/small/blogdetails_thumb.png" height="400" width="400" class="img-responsive" alt="image">
+						<span>blog page</span>
+					</a>
+					<a href="screenshot/large/blogList.png" class="fancybox" data-fancybox-group="homepage">
+						<img src="screenshot/small/bloglist_thumb.png" height="400" width="400" class="img-responsive" alt="image">
+						<span>blog list page</span>
+					</a>
+																	
+				</div>
+				
+			</article>
+            <!-- DEMO CONTENT CLOSE -->
+            
+			
+			<!-- DEMO CONTENT OPEN -->
+			<article class="index-pg-layout" id="css-str">
+			
+				<h2>CSS Structure</h2>
+				<hr class="notop">
+				<p>CSS files used in this template are as follows:</p>
+				1. main.css - main css file , desktop resolution , tablet resolution, mobile resolution specific css <br>
+				
+			</article>
+            <!-- DEMO CONTENT CLOSE -->
+			
+			<!-- DEMO CONTENT OPEN -->
+			<article class="index-pg-layout" id="icon-usage">
+			
+				<h2>Icon Usage</h2>
+				<hr class="notop">
+				<p>
+					Font based icon sets are used in this template. Hence the size and color of the icons can be controlled through css.
+					<pre class="prettyprint linenums">
+					&lt;i class="fa fa-google-plus"&gt;&lt;/i&gt;
+					&lt;i class="fa fa-twitter"&gt;&lt;/i&gt;
+					&lt;i class="fa fa-facebook"&gt;&lt;/i&gt;
+					&lt;i class="fa fa-behance"&gt;&lt;/i&gt;
+					&lt;i class="fa fa-angle-down"&gt;&lt;/i&gt;
+					&lt;i class="fa fa-copyright"&gt;&lt;/i&gt;
+					&lt;i class="fa fa-dribble"&gt;&lt;/i&gt;
+					&lt;i class="fa fa-plus"&gt;&lt;/i&gt;
+					&lt;i class="fa fa-minus"&gt;&lt;/i&gt;
+					</pre>
+					View <a href="http://fortawesome.github.io/Font-Awesome/icons/">here</a> the full list of icons used.
+				</p>
+				
+			</article>
+            <!-- DEMO CONTENT CLOSE -->
+			
+			<!-- DEMO CONTENT OPEN -->
+			<article class="index-pg-layout" id="font-usage">
+			
+				<h2>Font Usage</h2>
+				<hr class="notop">
+				<p>
+					<ul>	<li><b>opensans</b></li>
+						<li><b>playfairDisplay- </b></li>
+						<li><b>Lato - </b></li>
+						icons from Fontawesome </li>
+					</ul>
+					Get them here <a href="http://www.google.com/fonts/">google fonts</a>. <br>
+					
+				
+			</article>
+            <!-- DEMO CONTENT CLOSE -->
+			
+			<!-- DEMO CONTENT OPEN -->
+			<article class="index-pg-layout" id="java">
+			
+				<h2>Javascript</h2>
+				<hr class="notop">
+				<ul>
+					<li><b>main.js - </b> Contents javascripts code to initialize other js plugins present in vendor.js and plugins.js .</li>
+					<li><b>plugins.js - </b>It ia collection of all third party libraries. Included Web font
+					<ul>
+						<li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
+						<li><a href="https://github.com/alvarotrigo/fullPage.js/" target="_blank">fullpage.js</a></li>
+						<li><a href="http://getbootstrap.com/" target="_blank">bootstrap</a></li>
+						<li><a href="https://github.com/greensock/GreenSock-JS/" target="_blank">green Stock</a></li>
+						<li><a href="https://github.com/desandro/masonry" target="_blank">masonry</a></li>
+					</ul>  
+					
+					</li>					
+					<li><b>modernizr.js - </b> for details<a href="http://modernizr.com/docs/">modenizr</a>.</li>
+				</ul>
+				
+			</article>
+            <!-- DEMO CONTENT CLOSE -->
+			<article class="index-pg-layout" id="imglink">
+			
+				<h2>Image Link</h2>
+				<hr class="notop">
+				<ul>
+					<li><span>Home Section </span> 
+						<a href="http://www.thedieline.com/blog/2015/4/11/lithuanian-original-vodka-limited-edition" target="_blank">http://www.thedieline.com/blog/2015/4/11/lithuanian-original-vodka-limited-edition</a>
+					</li>
+					<li><span>About Section: </span> 
+						<a href="http://trndmonitor.com/juice-spotlight-carolina-wild-muscadine-juice/" target="_blank">http://trndmonitor.com/juice-spotlight-carolina-wild-muscadine-juice/</a>
+					</li>	
+					<li><span>service Section: </span> 
+						<a href="http://graphicburger.com/designer-desk-essentials/" target="_blank">http://graphicburger.com/designer-desk-essentials/</a>
+					</li>
+					<li><span>work Section :</span>
+						<a href="http://cargocollective.com/leahjg/The-J20-Rebrand-Project" target="_blank">http://cargocollective.com/leahjg/The-J20-Rebrand-Project</a>
+						<a href="http://designspiration.net/image/701156875575/" target="_blank">ttp://designspiration.net/image/701156875575/
+						</a>
+						<a href="https://www.pinterest.com/pin/533746993311809270/" target="_blank">https://www.pinterest.com/pin/533746993311809270/</a>
+						<a href="https://www.pinterest.com/pin/244953667209025944/" target="_blank">https://www.pinterest.com/pin/244953667209025944/</a>
+						<a href="https://www.pinterest.com/pin/314055773992150939/" target="_blank">https://www.pinterest.com/pin/314055773992150939/</a>
+						<a href="https://www.behance.net/gallery/25094993/The-Ice-Cream-that-Understands-PMS" target="_blank">https://www.behance.net/gallery/25094993/The-Ice-Cream-that-Understands-PMS</a>
+					 
+					</li>
+					<li>
+						<span>team section</span>
+						<a href="https://www.flickr.com/photos/iflook/15926685612/">https://www.flickr.com/photos/iflook/15926685612/</a>
+					</li>
+					<li>
+						<span>Join team section</span>
+						<a href="https://www.pinterest.com/pin/398568635745508886/" target="_blank">https://www.pinterest.com/pin/398568635745508886/</a>
+					</li>
+				</ul>
+				
+			</article>
+			<!-- DEMO CONTENT OPEN -->
+			<article class="index-pg-layout" id="source">
+			
+				<h2>Sources & Credits</h2>
+				<hr class="notop">
+				<p>The images included in the templates are for demonstration purposes only. They are available at <br><br>
+				Flicker: <a href="http://photodune.net/">http://photodune.net/</a>
+				<br>
+				Pinterest: <a href="http://pinterest.com/">http://pinterest.com/</a>
+				<br>
+				Unsplash: <a href="http://unsplash.com/">http://unsplash.com/</a>
+				
+				<br>
+				Thank you so much for purchasing this theme!
+
+				 
+				<br>
+				<br>
+				Regards,
+				<br>
+				0effortthemes Team
+				
+			</article>
+            <!-- DEMO CONTENT CLOSE -->
+
+		</section>
+
+
+		
+	</body>
+</html>

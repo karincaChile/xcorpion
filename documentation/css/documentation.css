@@ -1,0 +1,157 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,300italic,400,600,700|Lato:300,400,700,400italic|Cabin:400,700|Lobster);
+body {
+	margin: 0;
+	font-family:lato;
+	
+}
+
+a {
+	text-decoration: none;
+	color: #e4861f;
+}
+h1, h2, h3, h4, h5, h6{
+	margin-bottom:15px;
+}
+.side {
+	position: fixed;
+	height: 100%;
+	width: 270px;
+	float: left;
+	background-color: #282c37;
+	-webkit-box-shadow: 0 0 6px rgba(3,3,3,0.6);
+	box-shadow: 0 0 6px rgba(3,3,3,0.6);
+}
+ul li
+{
+	list-style:none;	
+}
+.side > ul {
+	padding: 0;
+	list-style: none;
+	overflow: auto;
+}
+
+.side > ul > li {
+	width: 100%;
+	text-align : left;
+	line-height: 1.5em;
+}
+
+.side > ul a {
+	/*width: 100%;*/
+	display: block;
+	padding: 13px 0 13px 30px;
+	color: #798493;
+	text-decoration: none;
+	font-weight:bold;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.side > ul a:hover {
+	background-color: #1f222d;
+	color: #fff;
+}
+
+.side > ul a:active {
+	color: #D63240;
+}
+
+.side > ul li a.active {
+	background-color: #1f222d;
+}
+
+.side > ul li a.active {
+	color: #fff;
+}
+
+.main-wrapper {
+	position: absolute;
+	left: 285px;
+	width: 84%;
+	padding: 20px;
+	padding-bottom: 800px;
+	float: right;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+/*.main-wrapper article:not(:first-of-type) {
+	padding-top: 70px;
+}*/
+
+.main-wrapper h1 {
+	margin: 0;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.main-wrapper h2 {
+	margin: 0;
+}
+
+.head {
+	height: 690px;
+	/* padding-top: 200px !important; */
+	margin: 0 auto;
+}
+
+.head ul {
+	list-style: none;
+	padding: 0;
+}
+
+.file-structure ul {
+	list-style: none;
+}
+
+hr.notop {
+	margin-top: 0;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #F0F0F0;
+}
+
+.fa-5
+{
+	font-size: 3em !important;
+	color:#fff;	
+	padding:40px 0;
+}
+.social_container 
+{	 
+	 width:140;
+	 display: inline-block;
+	 padding:0;
+	 text-align:center;
+	 margin-right:10px;
+}
+.fb
+{
+	background-color:rgb(59, 88, 156);
+}
+.gp
+{
+	background-color:rgb(217, 83, 51);
+}
+.sp
+{
+	background-color:rgb(102, 135, 238);
+}
+.twt
+{
+	background-color:rgb(102, 204, 238);
+}
+
+#imglink li span{
+ text-transform:uppercase;
+ font-style:bold;
+ display:block;
+ padding:10px 0;
+
+}
+#imglink li a{
+	font-style: normal;
+	padding:5px 0;
+}

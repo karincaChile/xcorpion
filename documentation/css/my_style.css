@@ -1,0 +1,152 @@
+/***** Default Css ******/
+img {display:inline-block;height: auto;max-width: 100%;}
+.main-wrapper ul{ margin:30px 0;}
+.main-wrapper ul li{ margin:20px 0;}
+.main-wrapper ul li a{ display:block;}
+.main-wrapper p{ color:#666666;}
+.grid_01{ width:8.333333333333332%; float:left;}
+.grid_02{ width:16.666666666666664%; float:left;}
+.grid_03{ width:25%; float:left;}
+.grid_04{ width:33.33333333333333%; float:left;}
+.grid_05{ width:50%; float:left;}
+.grid_06{ width:50%; float:left;}
+.grid_07{ width:58.333333333333336%; float:left;}
+.grid_08{ width:66.66666666666666%; float:left;}
+.grid_09{ width:75%; float:left;}
+.grid_10{ width:83.33333333333334%; float:left;}
+.grid_11{ width:91.66666666666666%; float:left;}
+.grid_12{ width:100%;}
+.clear{ clear:both; overflow:hidden;}
+h1{ color:#ec3c66; margin:15px 0;}
+h2{ color:#5a6779; margin:15px 0 !important;}
+h3{ font-size:22px; margin:15px 0;}
+h4{ font-size:18px; margin:15px 0;font-weight: 200; color: #5A6779;}
+h6{ font-size:16px; margin:15px 0;}
+a{ display:block;}
+p{ color:#8e9aa9 !important; font-size:16px; line-height:26px;}
+ul li{ color:#5a6779; font-weight:bold;}
+code{background:#F8F8FF; color:#ec3c66; border:black dashed 1px; padding:6px 10px; margin:0 5px;}
+.divider{ width:100%; height:1px; background: url(../images/dote.jpg) repeat-x; margin:30px 0;}
+.divider2{ width:100%; height:1px; background: url(../images/dote02.jpg) repeat-x; margin:30px 0;}
+.list_none ul li{ background:none !important; padding-left:0px !important;}
+.margin_large{ margin:50px 0px;}
+.shadow{-webkit-box-shadow: 6px 7px 5px -4px rgba(179,179,179,1);-moz-box-shadow: 6px 7px 5px -4px rgba(179,179,179,1);box-shadow: 6px 7px 5px -4px rgba(179,179,179,1);}
+table{ background:#f4f7fa; margin-bottom:30px;}
+thead td{ background:#afc4d9; font-weight:bold; font-size:17px; color:#5a6779; text-transform:uppercase;}
+td{ padding:15px; border-right:1px solid #fff;  border-bottom:1px solid #fff; color:#8e9aa9;}
+/***** Default Css ******/
+
+
+.log_area{background:#433636;padding: 35px 30px;text-align:center;}
+.head{padding-top:50px;}
+.head p{ text-align:center; line-height:21px; margin-top:50px;}
+.head p a{ display: inline;}
+.head h3, .head h6{ text-align:center;}
+.head h2{ font-size:50px;color:#433636;font-weight: 200; margin-top: 20px;}
+.head h2 span{font-weight: 600;   color: #e4861f}
+.creative_logo{ text-align:center;}
+.theme-overview, .file-structure, .index-pg-layout{ margin-bottom:150px;}
+.diff a{ display:inline-block; margin:15px; border:1px solid #E2E2E2;}
+.diff span{ display: block; text-align: center; text-transform: uppercase; padding: 20px 0; font-weight: bold; color:#fff; font-size:17px; background:#433636;}
+#home-layout  .grid_06, #inner-layout  .grid_06{ margin:10px 10px;   width: 48%;}
+
+
+#upload{background:#f4f7fa; padding:30px; margin-bottom:40px;}
+#upload p{ color:#8e9aa9;}
+#upload ul{ padding:0px;}
+#upload ul li{ background:url(images/bullet.png) left center no-repeat; padding-left: 25px; }
+
+
+#democontent{margin-bottom:40px;}
+#democontent ul{ padding:0px;}
+
+#psettings ul{ padding:0px;}
+#psettings ul > li{ color:#ec3c66 !important;}
+#psettings ul > li > ol > li{ color:#5a6779 !important;}
+
+
+#ptsettings ul{ padding:0px;}
+#ptsettings ul > li{ color:#ec3c66 !important;}
+#ptsettings ul > li > ol > li{ color:#5a6779 !important;}
+
+
+#hpsettings ul{ padding:0px;}
+#hpsettings{margin-bottom:40px;}
+
+
+#cwidgets ul{ padding:0px !important;}
+
+
+
+@charset "utf-8";
+/* CSS Document */
+/******************************* max-width: 239 open ***********************************/ 
+@media only screen and (max-width: 239px) {
+}
+/******************************* max-width: 239 Close ***********************************/ 
+
+/******************************* 240 to 319 open***********************************/ 
+@media only screen and (min-width: 240px) and (max-width: 319px) {
+
+}
+/******************************* 240 to 319 Close***********************************/ 
+
+/******************************* 320 to 479 open***********************************/ 
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+}
+/******************************* 320 to 479 Close***********************************/ 
+@media only screen and (min-width: 450px) and (max-width: 479px) {
+
+}
+/******************************* 480 to 567 open***********************************/ 
+@media only screen and (min-width: 480px) and (max-width: 567px) {
+
+}
+/******************************* 480 to 567 Close***********************************/ 
+
+/******************************* 568 to 684 open***********************************/ 
+@media only screen and (min-width: 568px) and (max-width: 684px) {
+.table_area{overflow-x: scroll;width: 300px;}
+}
+/******************************* 568 to 684 Close***********************************/ 
+
+/******************************* 685 to 767 open***********************************/ 
+@media only screen and (min-width: 685px) and (max-width: 767px) {
+.main-wrapper{ width:50%;}
+.table_area{overflow-x: scroll;width: 390px;}
+}
+/******************************* 685 to 767 Close***********************************/ 
+
+/******************************* 768 to 959 open***********************************/ 
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+.main-wrapper{ width:61%;}
+.table_area{ overflow-x: scroll !important;width: 470px !important;}
+}
+/******************************* 768 to 959 Close***********************************/ 
+
+/******************************* 960 to 1099 open***********************************/ 
+@media only screen and (min-width: 990px) and (max-width: 1099px) {
+	.main-wrapper{ width:70%;}
+
+}
+/******************************* 960 to 1099 Close***********************************/ 
+
+/******************************* 1100 to 1199 open***********************************/ 
+@media only screen and (min-width: 1100px) and (max-width: 1800px) {
+.main-wrapper{ width:73%;}
+}
+/******************************* 960 to 1199 Close***********************************/ 
+@media screen and (max-width:767px) {
+
+}
+/********************************************************* Table Open****************************************************************/
+@media only screen and (max-width: 760px),(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+}
